@@ -1,0 +1,91 @@
+<?php
+
+/*
+ * Thông báo kiểm tra dữ liệu tiếng Việt (APP_LOCALE=vi).
+ * :attribute là tên trường — controller truyền tên tiếng Việt qua tham số $attributes của validate().
+ */
+
+return [
+    'accepted'        => ':Attribute phải được chấp nhận.',
+    'after'           => ':Attribute phải là ngày sau :date.',
+    'after_or_equal'  => ':Attribute phải là ngày từ :date trở đi.',
+    'alpha'           => ':Attribute chỉ được chứa chữ cái.',
+    'alpha_dash'      => ':Attribute chỉ được chứa chữ, số, dấu gạch ngang và gạch dưới.',
+    'alpha_num'       => ':Attribute chỉ được chứa chữ và số.',
+    'array'           => ':Attribute phải là một danh sách.',
+    'before'          => ':Attribute phải là ngày trước :date.',
+    'before_or_equal' => ':Attribute phải là ngày trước hoặc bằng :date.',
+    'between'         => [
+        'numeric' => ':Attribute phải nằm trong khoảng :min - :max.',
+        'file'    => ':Attribute phải có dung lượng từ :min đến :max KB.',
+        'string'  => ':Attribute phải dài từ :min đến :max ký tự.',
+        'array'   => ':Attribute phải có từ :min đến :max phần tử.',
+    ],
+    'boolean'         => ':Attribute phải là đúng hoặc sai.',
+    'confirmed'       => 'Xác nhận :attribute không khớp.',
+    'date'            => ':Attribute không phải là ngày hợp lệ.',
+    'date_format'     => ':Attribute không đúng định dạng :format.',
+    'different'       => ':Attribute và :other phải khác nhau.',
+    'digits'          => ':Attribute phải gồm :digits chữ số.',
+    'email'           => ':Attribute phải là địa chỉ email hợp lệ.',
+    'exists'          => ':Attribute đã chọn không tồn tại.',
+    'file'            => ':Attribute phải là một file.',
+    'filled'          => ':Attribute không được để trống.',
+    'image'           => ':Attribute phải là hình ảnh.',
+    'in'              => ':Attribute đã chọn không hợp lệ.',
+    'integer'         => ':Attribute phải là số nguyên.',
+    'json'            => ':Attribute phải là chuỗi JSON hợp lệ.',
+    'max'             => [
+        'numeric' => ':Attribute không được lớn hơn :max.',
+        'file'    => ':Attribute không được vượt quá :max KB.',
+        'string'  => ':Attribute không được dài quá :max ký tự.',
+        'array'   => ':Attribute không được có quá :max phần tử.',
+    ],
+    'mimes'           => ':Attribute phải là file định dạng: :values.',
+    'mimetypes'       => ':Attribute phải là file định dạng: :values.',
+    'min'             => [
+        'numeric' => ':Attribute phải tối thiểu là :min.',
+        'file'    => ':Attribute phải có dung lượng tối thiểu :min KB.',
+        'string'  => ':Attribute phải có tối thiểu :min ký tự.',
+        'array'   => ':Attribute phải có tối thiểu :min phần tử.',
+    ],
+    'not_in'          => ':Attribute đã chọn không hợp lệ.',
+    'numeric'         => ':Attribute phải là số.',
+    'present'         => ':Attribute phải có mặt.',
+    'regex'           => ':Attribute không đúng định dạng.',
+    'required'        => 'Vui lòng nhập :attribute.',
+    'required_if'     => 'Vui lòng nhập :attribute khi :other là :value.',
+    'required_with'   => 'Vui lòng nhập :attribute khi có :values.',
+    'same'            => ':Attribute và :other phải giống nhau.',
+    'size'            => [
+        'numeric' => ':Attribute phải bằng :size.',
+        'file'    => ':Attribute phải có dung lượng :size KB.',
+        'string'  => ':Attribute phải dài :size ký tự.',
+        'array'   => ':Attribute phải có :size phần tử.',
+    ],
+    'string'          => ':Attribute phải là chuỗi ký tự.',
+    'unique'          => ':Attribute đã tồn tại.',
+    'uploaded'        => 'Tải :attribute lên thất bại.',
+    'url'             => ':Attribute phải là đường dẫn hợp lệ (bắt đầu bằng http:// hoặc https://).',
+
+    'custom' => [],
+
+    // Tên trường mặc định khi controller không truyền tên riêng
+    'attributes' => [
+        'code'                => 'mã',
+        'name'                => 'tên',
+        'title'               => 'tiêu đề',
+        'password'            => 'mật khẩu',
+        'current_password'    => 'mật khẩu hiện tại',
+        'userName'            => 'tên đăng nhập',
+        'email'               => 'email',
+        'file'                => 'file',
+        'description'         => 'mô tả',
+        'device_id'           => 'thiết bị',
+        'department_id'       => 'bộ phận',
+        'document_type_id'    => 'loại tài liệu',
+        'status'              => 'tình trạng',
+        'website'             => 'website',
+        'sort_order'          => 'thứ tự hiển thị',
+    ],
+];

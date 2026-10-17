@@ -1,0 +1,1 @@
+docx-preview 0.3.7 (Apache-2.0) + JSZip 3.10.1 (MIT) — tải về để xem file Word offline, không gọi CDN.

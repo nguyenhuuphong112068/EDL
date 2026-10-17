@@ -1,0 +1,1 @@
+pdf.js 3.11.174 (pdfjs-dist) — Mozilla, Apache-2.0. Tải về để chạy offline, không gọi CDN.
